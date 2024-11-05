@@ -1,2 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testCase guid="7b47dda4-6ec2-40a4-b51c-8fe905b6a1a8"/>
+<testCase guid="7b47dda4-6ec2-40a4-b51c-8fe905b6a1a8">
+  <summary/>
+  <steps>
+    <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" guid="3407b10d-0abc-42e9-85e6-94acf17da32f" name="SetValues" testItemId="1" title="Set Values: branch">
+      <arguments>
+        <argument id="values">
+          <value class="valueList" mutable="Mutable">
+            <namedValues mutable="Mutable">
+              <namedValue name="valuePath">
+                <value class="value" valueClass="string">branch</value>
+              </namedValue>
+              <namedValue name="value">
+                <value class="value" valueClass="string">feature</value>
+              </namedValue>
+              <namedValue name="valueScope">
+                <value class="value" valueClass="string">Test</value>
+              </namedValue>
+            </namedValues>
+          </value>
+        </argument>
+      </arguments>
+    </apiCall>
+  </steps>
+</testCase>
